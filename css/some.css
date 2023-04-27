@@ -1,0 +1,196 @@
+#invoice-POS {
+   border:1px solid #000;
+ 
+ 
+   
+  background: #FFF;
+}
+#invoice-POS ::selection {
+  background: #f31544;
+  color: #FFF;
+}
+.info h2{
+	font-size: 12px;
+}
+.info h4{
+  border:1px solid #000;
+  width: 80%;
+  padding: 13px;
+  margin-top:0px;
+}
+.info-down{
+  width: 100%;
+  
+  height: 50px;
+}
+.info-down .right{
+  width: 50%;
+  height: auto;
+   
+  float: left;
+}
+#table  table tr{
+  border:1px solid #000;
+  padding: 10px;
+}
+#table  table tr td{
+  border-bottom:1px solid #000;
+}
+.info-down .left{
+  width: 50%;
+  height: auto;
+  
+  float: left;
+}
+.info-down .left span , .info-down .right span{
+font-size: 12px;
+
+}
+.info-down .left span {
+  display: block;
+  text-align: end;
+
+}
+.info-down .right span {
+  display: block;
+  text-align: left;
+
+}
+#invoice-POS ::moz-selection {
+  background: #f31544;
+  color: #FFF;
+}
+#invoice-POS h1 {
+  font-size: 1.5em;
+  color: #222;
+}
+#invoice-POS h2 {
+  font-size: 0.9em;
+}
+#invoice-POS h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 2em;
+}
+#invoice-POS p {
+  font-size: 0.7em;
+  color: #666;
+  line-height: 1.2em;
+}
+#invoice-POS #top, #invoice-POS #mid, #invoice-POS #bot {
+  /* Targets all id with 'col-' */
+  border-bottom: 1px solid #EEE;
+}
+#invoice-POS #top {
+  min-height: 100px;
+}
+#invoice-POS #mid {
+  min-height: 80px;
+}
+#invoice-POS #bot {
+  min-height: 50px;
+}
+#invoice-POS #top .logo {
+  height: 60px;
+  width: 60px;
+  background: url(http://michaeltruong.ca/images/logo1.png) no-repeat;
+  background-size: 60px 60px;
+}
+#invoice-POS .clientlogo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+  background-size: 60px 60px;
+  border-radius: 50px;
+}
+#invoice-POS .info {
+  display: block;
+  margin-left: 0;
+}
+#invoice-POS .title {
+  float: right;
+}
+#invoice-POS .title p {
+  text-align: right;
+}
+#invoice-POS table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#invoice-POS .tabletitle {
+  font-size: 0.5em;
+  background: #EEE;
+}
+#invoice-POS .service {
+  border-bottom: 1px solid #EEE;
+}
+#invoice-POS .item {
+  font-size: 16px;
+  width: 24mm;
+}
+.item , .Hours , .Rate{
+	font-size: 16px;
+}
+#invoice-POS .itemtext {
+  font-size: 0.5em;
+}
+#invoice-POS #legalcopy {
+  margin-top: 5mm;
+}
+.legal strong{
+  display: block;
+  text-align: center;
+}
+.legal small{
+  display: block;
+  text-align: center;
+}
+.kitchen h1{
+  margin-bottom: 0px; 
+}
+.kitchen h3{
+  margin-top: 0px; 
+}
+@media print {
+    h6 {page-break-before: always;}
+}
+.payment{
+	font-size: 14px;
+}
+/* .total_data{
+	 width: 80%;
+} */
+.total_data li{
+list-style-type: none;
+margin-left: 34%;
+ padding-top: 10px;
+ border-bottom: 1px solid #000;
+}
+.total_data span{
+     display: inline-table;
+    float: right;
+     margin-right: 38px;
+
+ 
+}
+.item h2, .Hours h2 ,  .Rate h2 {
+	
+	top: 6px;
+    position: relative;
+}
+.Hours h2 ,  .Rate h2 {
+text-align: center;
+}
+.for_order span {
+  position: relative;
+  left: -30px;
+}
+.for_order {
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+  top: 1px;
+  line-height: 27px;
+  border-bottom: 1px solid;
+}
